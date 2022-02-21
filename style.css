@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  gap: 2px;
+}
+.sqr {
+  background-color: blue;
+}
+.align {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
